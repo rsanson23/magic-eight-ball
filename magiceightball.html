@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Magic Eight Ball</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./meb_style.css">
+        <script type="text/javascript" src="./scripts/eightballmsg.js"></script>
+    </head>
+    <body onload="createTriangleMessage()">
+        <div id="projectDiv">
+            <div id="eightBallDiv">
+                <h1 id="projectTitle">Magic Eigth Ball Sim</h1>
+                <br />
+                <div id="eightball">
+                    <div id="triangle">
+                        <span class="triMessage"></span>
+                        <span class="triMessage"></span>
+                        <span class="triMessage"></span>
+                        <span class="triMessage"></span>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div id="genBtn">
+                <button type="button" onclick="createTriangleMessage()">
+                    Shake Ball
+                </button>
+            </div>
+        </div>
+    </body>
+</html>
